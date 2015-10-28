@@ -4,7 +4,7 @@ The Dockerfile also includes build hooks to generate stand-alone images. See usa
 
 ## Usage
 
-The __darkhttpd__ Dockerfile is based on stock __Alpine Linux__ and can be run with a linked www source directory, or used as a base to embed the source content into a new image.
+The __darkhttpd__ Dockerfile is based on stock __Alpine Linux__ and can be run with a linked `www` source directory, or used as a base to embed the source content into a new image.
 
 ### base
 
@@ -16,7 +16,7 @@ docker run -d -P -v /my/www/source:/home/www darkhttpd:base
 
 ### "compiled" source
 
-You can 'compile' your `www` source into a new self-contained image. You do not need to run this image with a `www` directory.
+You can 'compile' your `www` source into a new self-contained image.
 
 __Create a new Dockerfile__
 
